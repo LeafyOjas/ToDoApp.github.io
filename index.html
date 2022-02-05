@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo</h1>
+        <form action="" class="app">
+            <div class="head-section">
+                <i class="fas fa-chevron-down"></i>
+                <input class="task" type="text" placeholder="What needs to be done?" onclick="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='What needs to be done?'}">
+            </div>
+            
+            <ul class="todo-list">
+
+            </ul>
+            
+           
+        </form>
+        <section>
+            <p class="items-left">Items Left : 0</p>
+            <button class="btn all">All</button>
+            <button class="btn active">Active</button>
+            <button class="btn complete">Completed</button>
+        </section>
+        
+    </div>
+</body>
+</html>

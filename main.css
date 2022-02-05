@@ -1,0 +1,138 @@
+*
+{
+    margin:0;
+    padding:0;
+    background-color: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    
+    
+    
+}
+.container>h1
+{
+    color: #e27892;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.6;
+    
+}
+.app
+{
+    height: 50vh;
+    width:50vw;
+    background-color: rgb(62, 63, 5);
+    margin: 4%;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+input
+{
+    color: silver;
+    background-color: white;
+    border:none;
+    margin:5%;
+    height: 3rem;
+    width:20rem;
+}
+input
+{
+    text-align: center;
+    border-radius:5px ;
+}
+form>div
+{
+    background-color: rgb(62, 63, 5);
+}
+i
+{
+    color: rgb(124, 120, 120);
+    background-color: rgb(62, 63, 5);
+    margin-top: 10%;
+    
+}
+.head-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.new_todo
+{
+    width:18vw;
+    height:4vh;
+    background-color: white;
+    list-style: none;
+    margin:5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+ul
+{
+    background-color: rgb(62, 63, 5);
+}
+.cross
+{
+    background-color: white;
+    border-radius: 5px;
+    height:30px;
+    width:30px;
+    color: rgb(124, 120, 120);
+    align-items: center;
+    margin-top:5px;
+    justify-content: center;
+}
+.fas
+{
+    margin-left: 5px;
+}
+.todo_div
+{
+    background-color: rgb(62, 63, 5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.checkbox
+{
+    width:30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.btn
+{
+    margin: 5vw;
+    border: none;
+    width: 10vw;
+    letter-spacing: 1px;
+}
+.btn:hover
+{
+    border-bottom: 2px solid rgb(62, 63, 5);
+    transform: scale(1.5);
+    
+}
+.completed
+{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0,0.5);
+}
